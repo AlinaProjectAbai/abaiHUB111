@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="kz">
+<head>
+  <meta charset="UTF-8">
+  <title>Абай Құнанбайұлының шығармашылығы</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f3f4f6;
+      color: #1f2937;
+      line-height: 1.6;
+      margin: 20px;
+    }
+
+    header {
+      background-color: #1f2937;
+      color: #f3f4f6;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+    }
+
+    .menu {
+      display: flex;
+      align-items: center;
+    }
+
+    .menu-item {
+      position: relative;
+      margin-left: 20px;
+    }
+
+    .menu-item a {
+      color: #f3f4f6;
+      text-decoration: none;
+      padding: 8px 12px;
+      display: block;
+      border-radius: 6px;
+      font-size: 16px;
+      transition: all 0.3s ease;
+    }
+
+    .menu-item a:hover {
+      background-color: #374151;
+      color: #fff;
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+      transform: translateY(-2px);
+    }
+
+    .submenu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #444;
+      min-width: 160px;
+      z-index: 1000;
+      border-radius: 6px;
+    }
+
+    .submenu a {
+      padding: 10px;
+      color: white;
+      font-size: 15px;
+    }
+
+    .submenu a:hover {
+      background-color: #555;
+    }
+
+    .menu-item:hover .submenu {
+      display: block;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #111827;
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    /* ✅ Картинки справа колонной */
+    .image-column {
+      float: right;
+      width: 250px;
+      margin: 0 0 15px 20px; /* отступы слева и снизу */
+    }
+
+    .image-column img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-bottom: 15px; /* отступ между картинками */
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">АбайHub - Жаңа ұрпаққа Абайдың сөзі</div>
+    <nav>
+      <div class="menu-item active"><a href="123456789.html">Тапсырмалар</a></div>
+      <div class="menu-item"><a href="12345678.html">Шығармалар талдауы</a></div>
+
+      <div class="menu">
+        <div class="menu-item">
+          <a href="12345.html" target="_blank">Өмір жолы</a>
+        </div>
+        <div class="menu-item">
+          <a href="#about">Дүниетаным және шығармашылығы</a>
+          <div class="submenu">
+            <a href="123456.html">Көзқарасы</a>
+            <a href="1234567.html">Шығармашылығы</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Абай Құнанбайұлының шығармашылығы</h1>
+
+    <!-- ✅ Колонна картинок -->
+    <div class="image-column">
+      <img src="https://el.kz/upload/storage_el/media/images/tiny_images/1e317af4913903d472db186ca8e89557.jpg" alt="Абай суреті 1">
+      <img src="data:image/jpeg;base64,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" alt="Абай суреті 2">
+    </div>
+
+    <!-- ✅ Текст будет обтекать картинки -->
+    <p>
+      Абай Құнанбайұлының шығармашылығы – қазақ әдебиетінің дамуында жаңа дәуір бастаған асыл мұра. Ол өз өлеңдері арқылы халықты ғылым-білімге, еңбекке, адамгершілікке шақырып, надандық пен жалқаулықты сынға алды. «Ғылым таппай мақтанба», «Интернатта оқып жүр», «Өлсе өлер табиғат, адам өлмес» сияқты өлеңдерінде өмірдің мәні, білімнің пайдасы, адам болмысы терең суреттеледі.
+Абайдың ерекше еңбегі – қара сөздері. Бұл – философиялық ой-толғаулар жинағы. Онда ол халықтың мінез-құлқы, тәрбие, дін, адамгершілік туралы пікірлерін айтады.
+    </p>
+    <hr>
+    <p>
+     Сонымен қатар Абай орыс әдебиетінің классиктерін қазақша сөйлетіп, Пушкин, Лермонтов, Крылов шығармаларын аударды. Бұл қазақ әдебиетінің көкжиегін кеңейтіп, жаңа тақырыптар мен көркемдік үлгілерді әкелді.
+Абайдың әндері де халық қазынасына айналды. «Көзімнің қарасы», «Желсіз түнде жарық ай» сияқты туындылары қазақтың ән өнерінде мәңгілік орын алды.
+Осылайша, Абай шығармашылығы – өлең, қара сөз және аударма саласын қамтыған, қазақ руханиятының биік шыңы болып табылады.
+    </p>
+    <hr>
+    <p>Абай Құнанбайұлының шығармашылығы қазақ әдебиетінің тарихында ерекше орын алады. Оның өлеңдерінде білім мен ғылымға ұмтылыс, еңбекқорлық пен адамгершілік мәселелері кеңінен жырланған. Ақын поэзиясында табиғаттың әсемдігі бейнеленіп, ол адам жан дүниесімен тығыз байланыста суреттеледі. Махаббат тақырыбы да нәзік лирика арқылы көрініс табады. Абай қазақ өлеңінің құрылымын жаңартып, жаңа ырғақ пен ұйқас түрлерін енгізді.</p>
+    <hr>
+    <p>Оның шығармаларында сыншыл реализм басым болып, қоғамдағы әділетсіздік, жалқаулық, надандық секілді құбылыстар қатты сыналады. Халық даналығын терең меңгерген Абай оны шығармаларында жаңа қырынан көрсетеді. Ақын Пушкин, Лермонтов, Крылов шығармаларын аударып, қазақ әдебиетіне тың өрнектер әкелді. Сонымен бірге, ол ән мен поэзияны ұштастырып, халыққа кең тараған әсем әуендер қалдырды. Абайдың көркемдік мұрасы – ұлттық руханияттың мәңгілік қазынасы.</p>
+  </main>
+</body>
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title> Абай Құнанбайұлы</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f3f4f6;
+      color: #1f2937;
+      padding: 0;
+    }
+
+    header {
+      background-color: #1f2937;
+      color: #f3f4f6;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    nav {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    .menu {
+      display: flex;
+      align-items: center;
+    }
+
+    .menu-item {
+      position: relative;
+      margin-left: 20px;
+    }
+
+    .menu-item a {
+      color: #f3f4f6;
+      text-decoration: none;
+      padding: 8px 12px;
+      display: block;
+      border-radius: 6px;
+      font-size: 16px;
+      transition: background 0.3s ease;
+    }
+
+    .menu-item a:hover {
+      background-color: #374151;
+      color: white;
+    }
+
+    /* Активный пункт */
+    .menu-item.active a {
+      color: #fff;
+    }
+
+    .submenu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #444;
+      min-width: 160px;
+      z-index: 1000;
+      border-radius: 6px;
+    }
+
+    .submenu a {
+      padding: 10px;
+      color: white;
+      font-size: 15px;
+    }
+
+    .menu-item:hover .submenu {
+      display: block;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #111827;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      max-width: 1100px;
+      margin: 0 auto 40px;
+    }
+
+    @media (min-width: 768px) {
+      .grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .card {
+      background-color: #e5e7eb;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .card h2 {
+      font-size: 1.25em;
+      font-weight: 600;
+      margin-bottom: 15px;
+      color: #111827;
+    }
+
+    .card p {
+      font-size: 1em;
+      line-height: 1.6;
+      color: #374151;
+    }
+    .menu-item a {
+  color: #f3f4f6;
+  text-decoration: none;
+  padding: 8px 12px;
+  display: block;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.menu-item a:hover {
+  background-color: #374151; /* тёмно-серый фон */
+  color: #fff;              /* белый текст */
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.3); /* лёгкое свечение */
+  transform: translateY(-2px); /* лёгкий "подъём" кнопки */
+}
+
+.submenu a:hover {
+  background-color: #555; /* серый фон у подменю */
+  color: #fff;
+}
+
+  </style>
+</head>
+<body>
+  <!-- ✅ сюда идёт HTML разметка -->
+  <header>
+    <div class="logo">АбайHub - Жаңа ұрпаққа Абайдың сөзі</div>
+    <nav>
+      <div class="menu-item active"><a href="123456789.html">Тапсырмалар</a></div>
+      <div class="menu-item"><a href="12345678.html">Шығармалар талдауы</a></div>
+
+      <div class="menu">
+        <div class="menu-item">
+          <a href="12345.html" target="_blank">Өмір жолы</a>
+        </div>
+        <div class="menu-item">
+          <a href="#about">Дүниетаным және шығармашылығы</a>
+          <div class="submenu">
+            <a href="123456.html">Көзқарасы</a>
+            <a href="1234567.html">Шығармашылығы</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+
+  <main>
+    <main style="font-size: 20px; line-height: 1.6;">
+    <h1>Абай кім?</h1>
+    <p>Абай Құнанбайұлы (толық аты — Ибраһим Құнанбайұлы) — Қазақстанның ұлттық символы, оның аты елдің мәдени, білім беру және мемлекеттік идентичдігінің ажырамас бөлігіне айналды. Бұл адам өте сабырлы және мейірімді болды. Оны үлкен істері үшін емес, өмірде қандай адам болғаны үшін құрметтеді.</p>
+    <hr style="border: none; height: 2px; background-color: #777777;">
+    <h2> Міне, Абай Құнанбайұлының жағымды қасиеттері:</h2>
+    <ul>
+      <li>Дана — өмір мен адам табиғатын терең түсіну.</li>
+      <li>Ақиқаттық қызметі — халықты ағартуға, білім мен мәдениетке деген сүйіспеншілікті дамытуға ұмтылу.</li>
+      <li>Патриотизм — Отанға деген сүйіспеншілік пен мақтаныш, қазақ дәстүрлері мен әдеп-ғұрыптарын сақтау.</li>
+      <li>Адалдық пен әділдік — шындықты қорғау және әділетсіздік пен өтірікті жазғыру.</li>
+      <li>Шығармашылық ойлау — идеяларды поэзия және музыка арқылы білдіру.</li>
+      <li>Жанашырлық — адамдардың тағдырына терең қамқорлық.</li>
+      <li>Өзін-өзі жетілдіруге деген ұмтылыс - бұл жеке дамуға және білім алуға шақыру.</li>
+    </ul>
+    <p> Абай Құнанбаев – өмірге дана көзқарасы, халқына деген шынайы сүйіспеншілігі бүгінге дейін жеткізген көрнекті тұлға. Оның ағартушылық қызметі, шығармашылық мұрасы, әділдікке ұмтылуы ұрпаққа үлгі болса, оның үздіксіз өзін-өзі жетілдіруі әрқайсымызды білім мен рухани өсу жолына түсуге шақырады.</p>
+    <img src="https://abai.kz/content/uploads/2020/05/photo_278873-1000x_-1000x_-1-1000x_-5.png" alt="Описание изображения" width="400">
+    <img src="https://www.gov.kz/uploads/2024/8/9/79701ecb6daa1be72edf1d0e1e9f5f56_original.401318.png" alt="Вторая картинка" width="475">
+
+</body>
+</html>
